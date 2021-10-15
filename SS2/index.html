@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <!-- nơi style  -->
+  <style>
+    /* Với cách style theo class,
+     tại buổi tới, chúng ta sẽ tiến hành tìm hiểu sâu hơn về class và id nhé*/
+    span.a {
+      display: inline;
+      /* mặc định với span, a, strong, b, i... */
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      border: 1px solid blue;
+      background-color: #9ff1b4;
+    }
+
+    span.b {
+      display: block;
+      width: 100px;
+      height: 100px;
+      padding: 5px;
+      border: 1px solid blue;
+      background-color: #9ff1b4;
+    }
+
+    span.c {
+      display: inline-block;
+      width: 140px;
+      height: 100px;
+      padding: 5px;
+      border: 1px solid blue;
+      background-color: #9ff1b4;
+    }
+  </style>
+</head>
+
+<body>
+  <!--VD về thẻ iframe (thường dùng cho việc nhúng video)  -->
+  <iframe width="892" height="502" src="https://www.youtube.com/embed/XWRMIwTjCfU" title="YouTube video player"
+    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen></iframe>
+
+
+
+  <br>
+
+  <!-- VD về thẻ button -->
+  <button>Click</button>
+
+  <!--VD: về display -->
+
+  <!-- inline  -->
+  <h1>Thuộc tính Display</h1>
+
+  <h2>display: inline</h2>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam culpa explicabo perspiciatis. Saepe,
+    tempora assumenda optio quis laboriosam molestias possimus provident fuga? Id nesciunt fugiat commodi asperiores
+    nostrum officia.<span class="a">laboriosam</span>
+    <span class="a">laboriosam molestias</span> possimus provident fuga? Id nesciunt fugiat commodi asperiores.
+  </div>
+
+
+  <!-- block -->
+  <h2>display: block</h2>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam culpa explicabo perspiciatis. Saepe,
+    tempora assumenda optio quis laboriosam molestias possimus provident fuga? Id nesciunt fugiat commodi asperiores
+    nostrum officia.<span class="b">laboriosam</span>
+    <span class="b">laboriosam molestias</span> possimus provident fuga? Id nesciunt fugiat commodi asperiores.
+  </div>
+
+  <!-- inline-block -->
+  <h2>display: inline-block</h2>
+  <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquam culpa explicabo perspiciatis. Saepe,
+    tempora assumenda optio quis laboriosam molestias possimus provident fuga? Id nesciunt fugiat commodi asperiores
+    nostrum officia.<span class="c">laboriosam</span>
+    <span class="c">laboriosam molestias</span>
+    possimus provident
+    fuga? Id nesciunt fugiat commodi asperiores.
+  </div>
+
+</body>
+
+</html>
