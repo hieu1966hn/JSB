@@ -1,4 +1,4 @@
-iFrame là gi?
+thẻ iFrame là gì?
 
 - Định nghĩa: iFrame là thành phần hay thẻ tag của một HTML element giúp nhúng HTML, hình ảnh, video hay trang web khác vào website của mình. iFrame là viết tắt của cụm từ Inline Frame và tạm dịch là khung nội tuyến.
 
